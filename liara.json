@@ -1,0 +1,8 @@
+{
+  "app": "prometheus",
+  "port": 9090,
+  "build": {
+    "location": "germany"
+  },
+  "disks": []
+}

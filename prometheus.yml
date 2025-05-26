@@ -1,0 +1,11 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: "django"
+    static_configs:
+      - targets: ["fastapi-app.liara.run:8000"]
+
+  - job_name: "fastapi"
+    static_configs:
+      - targets: ["actualfastapi-app.liara.run:8001"] # or :8000 depending on config
