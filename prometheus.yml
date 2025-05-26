@@ -8,4 +8,4 @@ scrape_configs:
 
   - job_name: "fastapi"
     static_configs:
-      - targets: [actualfastapi-app:8001"] # or :8000 depending on config
+      - targets: ["actualfastapi-app:8001"] # or :8000 depending on config
